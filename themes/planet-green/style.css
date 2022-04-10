@@ -1,0 +1,163 @@
+/*
+Theme Name: Planet Green
+Template: bizberg
+Text Domain: planet-green
+Author: Bizberg Themes
+Author URI: https://bizbergthemes.com/
+Theme URI: https://bizbergthemes.com/downloads/planet-green/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Planet Green is child theme of Bizberg WordPress Theme. Theme is a clean & modern Eco Nature WordPress Theme. Planet Green is suitable for any nature, environment, environmental, donation, action, green, animal, africa, wild, non profit, foundation, paypal, natural, ngo, earth websites. This Free WordPress theme is fully responsive, cross-browser compatible, translation ready & SEO friendly. If you run into any problem while using our theme, you can refer to extensive documentation or contact our friendly support team. It fully supports Elementor, all the sections are made from Elementor.
+Tags: custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, grid-layout, theme-options, blog, news, portfolio
+Version: 0.5
+Tested up to: 5.8
+Requires PHP: 5.6
+*/
+
+.footer_social_links{
+    display: block !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+	letter-spacing: 0;
+}
+
+@media (pointer: fine) {
+	.blog-nosidebar-1#blog.blog-lists .no-sidebars{
+		padding: 5px;
+		margin-bottom: 0px;
+	}
+}
+
+.blog-listing.no-sidebars .blog-post header.entry-header{
+	margin-top: 0 !important;
+}
+
+.list-start .container-fluid{padding: 0;}
+
+.list-start-main{box-shadow: 0 0 15px #ccc;}
+
+.list-item{
+	padding: 15px 15px 0;
+    margin-bottom: 15px;
+}
+
+.list-item .row{display: flex; align-items: center;}
+
+.list-item .col-md-8{ padding-left: 0; }
+
+.list-item .list-image {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    transition: all ease-in-out 0.5s;
+}
+
+.list-item .list-image > a {
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    background-position: center;
+    display: inline-block;
+    transition: all ease-in-out 0.5s;
+}
+
+.post-category a {
+    background: #ff1949;
+    padding: 1px 6px;
+    margin-bottom: 5px;
+    position: relative;
+    color: #fff;
+    display: inline-block;
+}
+
+@media(max-width: 767px){
+    .list-start{
+        padding: 50px 0 20px;
+    }
+    .list-start .container-fluid{padding: 0 15px;}
+    .list-start-main{box-shadow: none;}
+    .list-item{padding: 0; margin-bottom: 0;}
+    .list-item .row{display: block;}
+    .list-item .list-image > a{height: 250px; object-fit: cover; object-position: center;} 
+    .list-item .col-md-8{ padding-left: 15px; }
+    .col-sm-6.col-xs-6, .col-sm-4.col-xs-4, .col-sm-3.col-xs-6 {
+        margin-bottom: 30px;
+    }
+
+    .list-item .content-info{padding-top: 15px;}
+}
+
+.post-start{
+	padding: 50px 0;
+}
+
+.post_item{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.post_item .post_image{
+    height: 100%;
+    position: relative;
+}
+
+.post_item .post_image img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 240px;
+}
+
+.middle_section .post_item .post_image img{
+    height: 510px;
+}
+
+.post_item .post_image a::after {
+    top: 15% !important;
+    background: linear-gradient(to bottom, rgba(50, 50, 50, 0) 0, rgba(16, 15, 15, 0.91) 89%, rgba(16, 15, 15, 0.93) 93%) !important;
+    transition: 0.2s all ease-in-out;
+    opacity: 0.85;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.post_item .post_description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 6%;
+    color: #fff;
+}
+
+.post_item h3 a {
+    color: #fff;
+}
+
+.post_item .post_description a.tag {
+    background: #ff1949;
+    padding: 0px 6px 0px 8px;
+    position: relative;
+    color: #fff;
+}
+
+.post_item .post_meta span {
+    color: #bbb;
+    font-size: 12px;
+}
+
+a.planet_green_featured_cat_link:hover,
+.editor_section .post_item .post_description a.tag:hover,
+.editor_section .post_item h3 a:hover {
+    color: #fff !important;
+}
+
+@media(max-width: 991px){
+    .post_item .post_image img{
+        height: auto!important;
+    }
+}
