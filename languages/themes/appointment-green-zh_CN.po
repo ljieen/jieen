@@ -1,0 +1,71 @@
+# Translation of Themes - Appointment Green in Chinese (China)
+# This file is distributed under the same license as the Themes - Appointment Green package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-08 08:29:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Themes - Appointment Green\n"
+
+#. Description of the theme
+msgid "A Business theme which is ideal for creating a corporate / business website. Appointment Green theme is a child theme of appointment which has several sections such as slider, services , widget area, etc etc. The green of this theme makes your site looks clean and elegant. Appointment Green theme comes with various locales."
+msgstr "商业主题，非常适合创建公司/企业站点。Appointment Green主题是Appointment子主题，有幻灯器，服务，小工具区域等几个部分。这个主题的绿色使您的站点看起来干净和优雅。Appointment Green主题带有各种区域设置。"
+
+#. Theme Name of the theme
+msgid "Appointment Green"
+msgstr "Appointment Green"
+
+#: functions/customizer/customizer-copyright.php:48
+msgid "Hide copyright text"
+msgstr "隐藏版权文字"
+
+#: functions/customizer/customizer-copyright.php:57
+msgid "Social Links"
+msgstr "社交网络链接"
+
+#: functions/customizer/customizer-copyright.php:78
+msgid "Hide footer social icons"
+msgstr "隐藏页脚社交图标"
+
+#: functions/customizer/customizer-copyright.php:97
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: functions/customizer/customizer-copyright.php:114
+#: functions/customizer/customizer-copyright.php:150
+#: functions/customizer/customizer-copyright.php:185
+#: functions/customizer/customizer-copyright.php:221
+msgid "Open link in new tab"
+msgstr "在新标签页打开链接"
+
+#: functions/customizer/customizer-copyright.php:133
+msgid "Twitter URL"
+msgstr "Twitter URL"
+
+#: functions/customizer/customizer-copyright.php:168
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#: functions/customizer/customizer-copyright.php:204
+msgid "Skype URL"
+msgstr "Skype URL"
+
+#: functions/template-tag.php:115 functions/template-tag.php:197
+msgid "Toggle navigation"
+msgstr "切换导航"
+
+#. Theme URI of the theme
+msgid "https://webriti.com/appointment-green-child-version-details-page-1/"
+msgstr "https://webriti.com/appointment-green-child-version-details-page-1/"
+
+#. Author of the theme
+msgid "webriti"
+msgstr "webriti"
+
+#. Author URI of the theme
+msgid "https://www.webriti.com"
+msgstr "https://www.webriti.com"
